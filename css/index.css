@@ -2,6 +2,8 @@ body {
     background-color: #009688;
     display: flex;
     justify-content: center;
+
+    font-family: "Cairo", sans-serif;
 }
 
 .container {
