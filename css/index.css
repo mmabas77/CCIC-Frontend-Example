@@ -34,10 +34,25 @@ body {
     margin-top: -150px;
 }
 
-form{
+form {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 400px;
+}
+.contact-form input, .contact-form textarea {
+    font-family: "Cairo", sans-serif;
+
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    margin: 4px 0;
+}
+
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+    border: 3px solid #555;
+    transition: 0.5s;
 }
